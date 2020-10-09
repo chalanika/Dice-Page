@@ -33,9 +33,10 @@ class _DicePageState extends State<DicePage> {
       setState(() {
         right=Random().nextInt(6)+1;
         left=Random().nextInt(6)+1;
-        print(left);
+        
         
       });
+    print(left);
 }
   @override
   Widget build(BuildContext context) {
